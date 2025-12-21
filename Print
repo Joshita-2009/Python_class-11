@@ -3,15 +3,24 @@ a,b,c=20, 25.0, "joshu"
 print("a values=%i b values=%f c values=%s" %(a,b,c))
 
 #simple interest
-p=1000
-r=20/100
-t=2
+p= int(input("principal amount:"))
+r=int(input("rate of interest:"))
+t=int(input("time period:"))
 si=(p*r*t)/100
 print(si)
 
 #area of triangle
-l=60
-b=80
+l=int(input("enter length:"))
+b= int(input("enter breadth:"))
 area=1/2*b*l
 print(area)
+
+#Marks
+maths = int(input("maths marks:"))
+science = int(input("science marks:"))
+hindi = int(input("hindi marks:"))
+total = maths + science + hindi
+avg = total / 3
+print("total marks:", total)
+print("average marks:", avg)
 
