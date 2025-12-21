@@ -1,0 +1,2 @@
+a,b,c=20, 25.0, "joshu"
+print("a values=%i b values=%f c values=%s" %(a,b,c))
