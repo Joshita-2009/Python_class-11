@@ -1,2 +1,17 @@
+#print function
 a,b,c=20, 25.0, "joshu"
 print("a values=%i b values=%f c values=%s" %(a,b,c))
+
+#simple interest
+p=1000
+r=20/100
+t=2
+si=(p*r*t)/100
+print(si)
+
+#area of triangle
+l=60
+b=80
+area=1/2*b*l
+print(area)
+
