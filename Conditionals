@@ -9,3 +9,18 @@ elif(marks>=70 and marks<80):
     print("Congrats!! Good Work you secured C Grade")
 elif(marks<70):
     print("Congrats!! You can do it you secured D Grade")
+
+Upgraded Version
+marks= float(input("Enter your marks:"))
+if(marks>90):
+    grade="A"
+    print("Congrats!! Excellent Work your grade is " + grade)
+elif(marks>=80 and marks<90):
+    grade="B"
+    print("Congrats!! Keep going you secured grade is " + grade)
+elif(marks>=70 and marks<80):
+    grade="C"
+    print("Congrats!! Good Work you secured grade is " + grade)
+elif(marks<70):
+    grade="D"
+    print("Congrats!! You can do it you secured grade is " + grade)
