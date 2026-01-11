@@ -1,0 +1,11 @@
+#Grade system
+marks= float(input("Enter your marks:"))
+
+if(marks>90):
+    print("Congrats!! Excellent Work you secured A Grade")
+elif(marks>=80 and marks<90):
+    print("Congrats!! Keep going you secured B Grade")
+elif(marks>=70 and marks<80):
+    print("Congrats!! Good Work you secured C Grade")
+elif(marks<70):
+    print("Congrats!! You can do it you secured D Grade")
