@@ -24,3 +24,13 @@ elif(marks>=70 and marks<80):
 elif(marks<70):
     grade="D"
     print("Congrats!! You can do it you secured grade is " + grade)
+
+#Age Eligibility
+age=int((input("Enter your age: ")))
+if (age>=18):
+    if (age>=60):
+        print("Not eligible to drive")
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
