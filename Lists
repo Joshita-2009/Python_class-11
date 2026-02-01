@@ -1,1 +1,11 @@
+#Membership of list elements
+L1=[1,2,3,4,5]
+print(9 in L1)
+print(9 not in L1)
+
+L2=[8,9,0,7,6]
+L3=L1+L2
+print(L3)
+print(L1*3)
+
 
