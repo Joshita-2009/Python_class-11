@@ -1,0 +1,44 @@
+#making a dict from list
+  L1=[1, "dev"]
+L3=[3,"ratna"]
+L2=[2,"joshu"]
+L4=[4, "varshi"]
+students= dict([L1,L2,L3,L4])
+print(students)
+
+#assigning values to an empty dict
+  stud={}
+stud[1]="satya"
+print(stud)
+
+#dict from tuple through zip fun()
+  T1=(1,2,3)
+T2=("joshu", "ratna", "krish")
+names=dict(zip(T1,T2))
+print(names)
+
+#updating values
+  student={1: "shekhar", 2: "rani", 3: "ratna", 4: "guna",  5:"joshu"}
+'''print(student[2])
+student[3]="jahnavi"
+print(student)
+print(25 in student)
+
+#methods
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student.pop(3))
+print(student.get(4))
+
+d1={1: "seeta", 2: "geeta", 3: "shanta", 4: "vijay"}
+d2={ 1: "shanti",  2:"jay"}
+d1.update(d2)
+print(d1)
+
+#functions
+print(min(d1))
+print(max(d1))
+print(sum(d1))
+print(len(d1))
+  
